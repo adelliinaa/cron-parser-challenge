@@ -39,8 +39,8 @@ The cron fields must adhere to the following ranges:
 Clone the repo to your local machine using the following command:
 
 ```sh
-git clone <repository_url>
-cd <repository_directory>
+git clone [<repository_url>](https://github.com/adelliinaa/cron-parser-challenge.git)
+cd <cron-parser-challenge>
 ```
 
 ### Step 2: Set Up a Virtual Environment
@@ -60,7 +60,8 @@ pip install -r requirements.txt
 ```
 
 ### Step 4: Run with CLI
-To run the parser in your CLI, use the following command:
+To use the parser in your CLI, navigate to `cron_parser/src` and run
+the following command:
 
 ```sh
 python cli.py "*/15 0 1,15 * 1-5 /usr/bin/find"
