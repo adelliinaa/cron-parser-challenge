@@ -39,8 +39,8 @@ The cron fields must adhere to the following ranges:
 Clone the repo to your local machine using the following command:
 
 ```sh
-git clone [<repository_url>](https://github.com/adelliinaa/cron-parser-challenge.git)
-cd <cron-parser-challenge>
+git clone https://github.com/adelliinaa/cron-parser-challenge.git
+cd cron-parser-challenge
 ```
 
 ### Step 2: Set Up a Virtual Environment
